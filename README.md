@@ -68,6 +68,15 @@ npm run dev
 
 This will start a development server at `http://localhost:5173/`.
 
+## Running with docker
+To run the project using Docker, use the following command:
+
+```sh
+docker-compose up -d
+```
+
+This will start a production server at `http://localhost:3000/`.
+
 ## Contributing
 
 Contributions are welcome! Feel free to open issues or submit pull requests.

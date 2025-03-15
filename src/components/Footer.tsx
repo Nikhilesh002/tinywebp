@@ -15,6 +15,8 @@ const Footer: React.FC = () => {
         <span className="mx-1 hidden sm:block text-gray-500 opacity-25 ">｜</span>
         <Link to="/privacy-policy">Privacy Policy</Link>
         <span className="mx-1 hidden sm:block text-gray-500 opacity-25 ">｜</span>
+        <Link to="https://rapidapi.com/IsPra94/api/tinywebp">API</Link>
+        <span className="mx-1 hidden sm:block text-gray-500 opacity-25 ">｜</span>
         <Link to="https://tinywebp.instatus.com/">Status</Link>
         </div>
         <hr className="border-t-1 border-solid border-gray-500 opacity-25 w-72 sm:w-96 my-4" />

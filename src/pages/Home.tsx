@@ -4,6 +4,7 @@ import JSZip from 'jszip';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { Link } from 'react-router-dom';
+import wordchains from "../assets/play.wordchains.today.gif";
 
 interface ConvertedImage {
   originalName: string;
@@ -327,9 +328,10 @@ function Home() {
             </div>
           </div>
         )}
-        <div className='relative mt-8 flex justify-center items-center'>
-                <a className="z-20" href="https://www.producthunt.com/posts/tinywebp?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-tinywebp" target="_blank"><img src={`https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=876487&theme=${theme === "dark" ? "neutral": "light"}&t=1739447984353`} alt="TinyWebP - The&#0032;Fastest&#0044;&#0032;Most&#0032;Privacy&#0045;Focused&#0032;Image&#0032;Compression&#0032;Tool | Product Hunt" width="200" height="43" /></a>
-                
+        <div className='relative mt-8 flex justify-center items-center shadow-lg rounded-md  sm:rounded-2xl'>
+        <a href="https://bit.ly/play_wordchains_today" target="_blank">
+            <img src={wordchains} alt="Play Wordchains Today" className="w-100 rounded-md  sm:rounded-2xl"/>
+          </a>
         </div>
       </div>
 
